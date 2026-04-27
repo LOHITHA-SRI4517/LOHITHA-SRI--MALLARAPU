@@ -1,3 +1,4 @@
+//INSERTION OF ELEMENT AT BEGINNING SINGLE LINKED LIST
 #include<stdio.h>
 #include<stdlib.h>
 struct node{
@@ -25,8 +26,12 @@ int main(){
 }
 	temp=head;
 	while(temp!=NULL){
-		printf("%d\t",temp->data);	//traversing code
+		printf("BEFORE INSERTING:%d\t",temp->data);	//traversing code
 		temp=temp->link;
-	}
+	}struct node *insertnode=(struct node*)malloc(sizeof(struct node));
+	pri
+	while(temp!=NULL){
+		printf("AFTER INSERTING:%d\t",temp->data);	//traversing code
+		temp=temp->link;
 	return 0;
-}
+}}
